@@ -4,6 +4,9 @@ import TextForm from "./components/TextForm";
 import Alert from "./components/Alert";
 import About from "./components/About";
 import React, { useState } from "react";
+import Analytics from '@vercel/analytics';
+
+const analytics = Analytics('YOUR_VERCEL_PROJECT_ID');
 
 function App() {
   const [mode, setMode] = useState('light');
@@ -45,4 +48,4 @@ function App() {
   );
 }
 
-export default App;
+export default analytics.withLogRocket(App);
