@@ -1,11 +1,10 @@
 import React from 'react';
-import shahnawazImg from '../Shahnawaz.png';
 function About() {
   return (
     <div className="container mt-5">
       <div className="row">
         <div className="col-md-6 order-md-2">
-          <img src={shahnawazImg} alt="Shahnawaz" className="img-fluid rounded-circle border border-black" />
+          <img src="https://avatars.githubusercontent.com/u/95706364?v=4" alt="Shahnawaz" className="img-fluid rounded-circle border border-black" />
         </div>
         <div className="col-md-6 order-md-1">
           <h1>About Me</h1>
