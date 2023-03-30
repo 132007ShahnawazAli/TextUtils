@@ -60,7 +60,7 @@ export default function TextForm(props) {
                     <textarea
                         className="form-control"
                         id="myBox"
-                        rows="8"
+                        rows="6"
                         value={text}
                         onChange={handleOnChange}
                         placeholder="Type or paste your text"
@@ -68,7 +68,7 @@ export default function TextForm(props) {
                         style={{
                             backgroundColor: props.mode === 'dark' ? '#5eb5c7' : '#e4f4f7',
                             color: 'black',
-                            fontSize: '20px',
+                            fontSize: '17px',
                             fontWeight: '400',
                         }} />
                     <div className="mt-3">
